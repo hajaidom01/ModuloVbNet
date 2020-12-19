@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelEscuelaStoreContainer" CdmEntityContainer="EscuelaEntities">
+    <EntitySetMapping Name="AlumnoMaterias">
+      <EntityTypeMapping TypeName="ModelEscuela.AlumnoMateria">
+        <MappingFragment StoreEntitySet="AlumnoMateria">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FkAlumno" ColumnName="FkAlumno" />
+          <ScalarProperty Name="FkMateria" ColumnName="FkMateria" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alumnos">
+      <EntityTypeMapping TypeName="ModelEscuela.Alumno">
+        <MappingFragment StoreEntitySet="Alumnos">
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materias">
+      <EntityTypeMapping TypeName="ModelEscuela.Materia">
+        <MappingFragment StoreEntitySet="Materias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NombreMateria" ColumnName="NombreMateria" />
+          <ScalarProperty Name="Activa" ColumnName="Activa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ModelEscuela.Usuario">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Usuario1" ColumnName="Usuario" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

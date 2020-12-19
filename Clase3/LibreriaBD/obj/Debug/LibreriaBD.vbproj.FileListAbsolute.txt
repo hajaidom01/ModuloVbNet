@@ -1,0 +1,10 @@
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\bin\Debug\LibreriaBD.dll
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\bin\Debug\LibreriaBD.pdb
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\bin\Debug\LibreriaBD.xml
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.vbprojAssemblyReference.cache
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.Resources.resources
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.vbproj.GenerateResource.cache
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.dll
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.xml
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Clase3\LibreriaBD\obj\Debug\LibreriaBD.pdb

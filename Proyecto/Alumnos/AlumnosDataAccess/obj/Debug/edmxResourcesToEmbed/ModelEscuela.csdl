@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelEscuela" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AlumnoMateria">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FkAlumno" Type="Int32" />
+    <Property Name="FkMateria" Type="Int32" />
+    <Property Name="Activa" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Alumno">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="Nombre" MaxLength="100" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Apellido" MaxLength="100" FixedLength="false" Unicode="true" Type="String" />
+    <Property Name="Matricula" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Materia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreMateria" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Activa" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="EscuelaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AlumnoMaterias" EntityType="Self.AlumnoMateria" />
+    <EntitySet Name="Alumnos" EntityType="Self.Alumno" />
+    <EntitySet Name="Materias" EntityType="Self.Materia" />
+    <EntitySet Name="Usuarios" EntityType="ModelEscuela.Usuario" />
+  </EntityContainer>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Usuario1" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Boolean" />
+  </EntityType>
+</Schema>

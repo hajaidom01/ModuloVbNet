@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.master.vb" Inherits="Clase3.Master" %>
+
+<!DOCTYPE html>
+<script src="../Css/bootstrap.css"></script>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="row">
+                <div class="col-sm-3 px-md-5 mt-5">
+                    <div class="card mt-0">
+                        <div class="card-body">
+                            <h1>Aplicacion WEB</h1>
+                        </div>
+                        <nav>
+                            <ul class="list-group">
+                                <li>
+                                    <a href="../Personas/index.aspx">Personas</a>
+                                </li>
+                                <li>
+                                    <a href="../Estados/index.aspx">Estados</a>
+                                </li>
+                                <li>
+                                    <a href="../Tipos/index.aspx">Tipos</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

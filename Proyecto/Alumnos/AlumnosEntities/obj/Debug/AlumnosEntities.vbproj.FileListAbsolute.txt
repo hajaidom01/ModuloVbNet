@@ -1,0 +1,10 @@
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\bin\Debug\AlumnosEntities.dll
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\bin\Debug\AlumnosEntities.pdb
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\bin\Debug\AlumnosEntities.xml
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.vbprojAssemblyReference.cache
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.Resources.resources
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.vbproj.GenerateResource.cache
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.dll
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.xml
+C:\Users\User\Documents\TDW\VB .NET\ModuloVbNet\Proyecto\Alumnos\AlumnosEntities\obj\Debug\AlumnosEntities.pdb
